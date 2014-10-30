@@ -1,8 +1,8 @@
 <UI version="4.0" >
- <class>test1Class</class>
- <widget class="QMainWindow" name="test1Class" >
+ <class>TestClass</class>
+ <widget class="QMainWindow" name="TestClass" >
   <property name="objectName" >
-   <string notr="true">test1Class</string>
+   <string notr="true">TestClass</string>
   </property>
   <property name="geometry" >
    <rect>
@@ -13,7 +13,7 @@
    </rect>
   </property>
   <property name="windowTitle" >
-   <string>test1</string>
+   <string>Test</string>
   </property>
   <widget class="QMenuBar" name="menuBar" />
   <widget class="QToolBar" name="mainToolBar" />
@@ -23,7 +23,7 @@
  <layoutDefault spacing="6" margin="11" />
  <pixmapfunction></pixmapfunction>
  <resources>
-   <include location="test1.qrc"/>
+   <include location="test.qrc"/>
  </resources>
  <connections/>
 </UI>

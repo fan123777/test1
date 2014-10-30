@@ -1,10 +1,11 @@
-#include "test1.h"
+#include "stdafx.h"
+#include "test.h"
 #include <QtWidgets/QApplication>
 
 int main(int argc, char *argv[])
 {
 	QApplication a(argc, argv);
-	test1 w;
+	Test w;
 	w.show();
 	return a.exec();
 }
